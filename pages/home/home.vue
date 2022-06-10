@@ -71,7 +71,8 @@
 			// 在 onLoad 中调用获取数据的方法
 			this.getNavList()
 			// 在 onLoad 中调用获取楼层数据的方法
-			this.getFloorList()
+			this.getFloorList(),
+				uni.$showMsg("冲冲冲")
 		},
 		methods: {
 			// 获取轮播图数据的方法
